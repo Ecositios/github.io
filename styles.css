@@ -76,6 +76,6 @@ footer {
     font-size: 0.9rem;
 }
 .footertext {
-    color: white;
+    color: white !important;
     font-weight: bold;
 }
