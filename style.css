@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background-color: #f5f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0a3d62, #1e3799);
+    color: white;
+    text-align: center;
+    padding: 4rem 1.5rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background: white;
+    color: #0a3d62;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section {
+    padding: 3rem 1.5rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    color: #0a3d62;
+}
+
+.section.alt {
+    background-color: #eaeef3;
+}
+
+.services {
+    list-style: none;
+}
+
+.services li {
+    margin-bottom: 0.5rem;
+}
+
+.steps {
+    padding-left: 1.2rem;
+}
+
+.contact {
+    text-align: center;
+}
+
+footer {
+    background-color: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
