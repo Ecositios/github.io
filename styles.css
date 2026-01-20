@@ -82,10 +82,11 @@ body {
     margin: 70px auto;
     padding: 45px;
     border-radius: 18px;
-
     background: #ffffff;
-    box-shadow: 0 15px 40px rgba(0,0,0,.08);
+    box-shadow: 0 18px 45px rgba(13,59,122,.12);
+    border-top: 5px solid #0d3b7a;
 }
+
 
 .section h2 {
     font-size: 1.8rem;
@@ -96,8 +97,10 @@ body {
 /* Variante azul suave */
 
 .section.alt {
-    background: linear-gradient(135deg, #e8f1ff, #f7fbff);
+    background: linear-gradient(135deg, #dbeafe, #f8fbff);
+    border-top: 5px solid #ffd54f;
 }
+
 
 /* ========================= SERVICIOS ========================= */
 
@@ -109,16 +112,16 @@ body {
 }
 
 .services li {
-    background: #f8fafc;
-    padding: 18px 20px;
-    border-radius: 14px;
+    background: linear-gradient(180deg, #ffffff, #f1f7ff);
+    padding: 20px;
+    border-radius: 16px;
     border: 1px solid rgba(13,59,122,.08);
-    transition: all .2s ease;
+    transition: all .25s ease;
 }
 
 .services li:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(13,59,122,.12);
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(13,59,122,.18);
 }
 
 /* ========================= PASOS ========================= */
@@ -147,8 +150,13 @@ body {
 
 footer {
     text-align: center;
-    padding: 25px 10px;
-    background: #06152b;
+    padding: 30px 10px;
+    background: linear-gradient(135deg, #06152b, #0a2450);
+}
+
+.footertext {
+    font-size: .9rem;
+    color: #e2ecff;
 }
 
 .footertext {
