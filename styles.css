@@ -8,13 +8,11 @@
 }
 
 /* ========================= BODY ========================= */
-
 body {
-    background: #f4f7fb;
+    background: linear-gradient(180deg, #f4f7fb 0%, #eaf2ff 100%);
     color: #0f172a;
     line-height: 1.6;
 }
-
 /* ========================= HERO ========================= */
 
 .hero {
