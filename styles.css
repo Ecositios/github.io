@@ -16,17 +16,40 @@
 /* ========================= BODY ========================= */
 
 body {
-
     background:linear-gradient(#FFFFE0,white,#FFFFE0 );
     color: #0f172a;
     line-height: 1.45;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#content {
+    flex: 1;
 }
 
+
 /* ========================= HERO ========================= */
+.menubar{
+    top: 0; /**poscición del elemento **/
+    position: sticky; /**posicion quieta**/
+    z-index: 999; /**por encima de elementos**/
+    color: white;
+    text-align: center;
+    padding: 28px 10px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #071830, #0a3d96);
+}
+.menu {
+
+    display: flex;
+    gap: 25px;
+    list-style: none;
+
+
+}
 
 .hero {
     position: relative;
-    overflow: hidden;
     min-height: 85vh;
     padding: 30px 20px 10px;
     display: flex;
@@ -36,9 +59,9 @@ body {
     text-align: center;
 
     background: linear-gradient(135deg,
-    #0a2a5a 0%,
+    #08192e 0%,
     #0d3f8f 45%,
-    #1565c0 100%);
+    #005ac2 100%);
 }
 
 .hero::after {
