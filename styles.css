@@ -30,6 +30,7 @@ body {
 
 /* ========================= HERO ========================= */
 .menubar{
+    display: flex;
     top: 0; /**poscición del elemento **/
     position: sticky; /**posicion quieta**/
     z-index: 999; /**por encima de elementos**/
@@ -40,12 +41,9 @@ body {
     background: linear-gradient(135deg, #071830, #0a3d96);
 }
 .menu {
-
     display: flex;
     gap: 25px;
     list-style: none;
-
-
 }
 
 .hero {
@@ -162,7 +160,7 @@ body {
 .contact p {
     margin-top: 8px;
     font-size: 1.05rem;
-    al:center;
+    align-items:center;
 }
 
 /* ========================= FOOTER ========================= */
@@ -202,5 +200,19 @@ footer {
 
         width: 100%;
         height: auto;
+
+    }
+
+    .li-item{
+
+    }
+
+    .li-logo {
+        padding-right: 20%;
+        gap: 10px;
+        display: flex;
+        width: 50px;
+        height: 20px;
         
     }
+
